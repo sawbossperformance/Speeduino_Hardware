@@ -1,5 +1,34 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -36,7 +65,7 @@ IGN4
 Text GLabel 8650 3300 2    60   Input ~ 0
 IGN3
 $Comp
-L power:GND #PWR01
+L GND #PWR01
 U 1 1 5A5847A9
 P 7250 3400
 F 0 "#PWR01" H 7250 3150 50  0001 C CNN
@@ -55,7 +84,7 @@ Wire Wire Line
 	7500 3700 7500 3400
 Connection ~ 7500 3400
 $Comp
-L power:+5V #PWR02
+L +5V #PWR02
 U 1 1 5A5848BD
 P 7250 3800
 F 0 "#PWR02" H 7250 3650 50  0001 C CNN
@@ -84,7 +113,7 @@ O2
 Text GLabel 8650 4400 2    60   Input ~ 0
 TPS
 $Comp
-L power:GND #PWR03
+L GND #PWR03
 U 1 1 5A584BE2
 P 9100 4300
 F 0 "#PWR03" H 9100 4050 50  0001 C CNN
@@ -103,7 +132,7 @@ VR2-
 Text GLabel 8650 3900 2    60   Input ~ 0
 VR1-
 $Comp
-L power:+5V #PWR04
+L +5V #PWR04
 U 1 1 5A584D66
 P 9100 3800
 F 0 "#PWR04" H 9100 3650 50  0001 C CNN
@@ -156,7 +185,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 3500 8000 3500
 Wire Wire Line
-	7250 3400 7500 3400
+	7250 3400 8000 3400
 Wire Wire Line
 	7850 3300 8000 3300
 Wire Wire Line
@@ -212,7 +241,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 2300 8500 2600
 $Comp
-L Screw-terminal-interface-rescue:CONN_02X20 P1
+L CONN_02X20 P1
 U 1 1 5A5844A5
 P 8250 3550
 F 0 "P1" H 8250 4600 50  0000 C CNN
@@ -237,7 +266,7 @@ IGN4
 Text GLabel 4850 3300 2    60   Input ~ 0
 IGN3
 $Comp
-L power:GND #PWR05
+L GND #PWR05
 U 1 1 5A58530F
 P 4850 2250
 F 0 "#PWR05" H 4850 2000 50  0001 C CNN
@@ -250,7 +279,7 @@ $EndComp
 Text GLabel 4050 3600 0    60   Input ~ 0
 MAP
 $Comp
-L power:+5V #PWR06
+L +5V #PWR06
 U 1 1 5A58531A
 P 3450 3800
 F 0 "#PWR06" H 3450 3650 50  0001 C CNN
@@ -279,7 +308,7 @@ O2
 Text GLabel 4850 4400 2    60   Input ~ 0
 TPS
 $Comp
-L power:GND #PWR07
+L GND #PWR07
 U 1 1 5A585329
 P 5300 4300
 F 0 "#PWR07" H 5300 4050 50  0001 C CNN
@@ -298,7 +327,7 @@ VR2-
 Text GLabel 4850 3900 2    60   Input ~ 0
 VR1-
 $Comp
-L power:+5V #PWR08
+L +5V #PWR08
 U 1 1 5A585333
 P 5300 3800
 F 0 "#PWR08" H 5300 3650 50  0001 C CNN
@@ -327,7 +356,7 @@ IDLE1
 Text GLabel 4850 2800 2    60   Input ~ 0
 VVT
 $Comp
-L Screw-terminal-interface-rescue:Screw_Terminal_1x05 J1
+L Screw_Terminal_1x05 J1
 U 1 1 5A5956BA
 P 1050 2250
 F 0 "J1" H 1050 2800 50  0000 C TNN
@@ -338,7 +367,7 @@ F 3 "" H 1025 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw-terminal-interface-rescue:Screw_Terminal_1x05 J2
+L Screw_Terminal_1x05 J2
 U 1 1 5A5956EF
 P 1050 3200
 F 0 "J2" H 1050 3750 50  0000 C TNN
@@ -349,7 +378,7 @@ F 3 "" H 1025 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw-terminal-interface-rescue:Screw_Terminal_1x05 J3
+L Screw_Terminal_1x05 J3
 U 1 1 5A595747
 P 1050 4150
 F 0 "J3" H 1050 4700 50  0000 C TNN
@@ -360,7 +389,7 @@ F 3 "" H 1025 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw-terminal-interface-rescue:Screw_Terminal_1x05 J4
+L Screw_Terminal_1x05 J4
 U 1 1 5A595AD4
 P 2700 2250
 F 0 "J4" H 2700 2800 50  0000 C TNN
@@ -371,7 +400,7 @@ F 3 "" H 2675 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw-terminal-interface-rescue:Screw_Terminal_1x05 J5
+L Screw_Terminal_1x05 J5
 U 1 1 5A595ADA
 P 2700 3200
 F 0 "J5" H 2700 3750 50  0000 C TNN
@@ -382,7 +411,7 @@ F 3 "" H 2675 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw-terminal-interface-rescue:Screw_Terminal_1x05 J6
+L Screw_Terminal_1x05 J6
 U 1 1 5A595AE0
 P 2700 4150
 F 0 "J6" H 2700 4700 50  0000 C TNN
@@ -400,8 +429,4 @@ Wire Wire Line
 	1450 2250 1250 2250
 Wire Wire Line
 	1250 2450 1450 2450
-Wire Wire Line
-	7900 3400 8000 3400
-Wire Wire Line
-	7500 3400 7900 3400
 $EndSCHEMATC

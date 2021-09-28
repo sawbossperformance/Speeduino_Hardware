@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Screw-terminal-interface-rescue)(type Legacy)(uri "${KIPRJMOD}/Screw terminal interface-rescue.lib")(options "")(descr ""))
+)

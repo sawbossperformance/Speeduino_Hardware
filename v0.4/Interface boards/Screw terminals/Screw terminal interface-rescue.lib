@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Screw-terminal-interface-rescue_CONN_02X20
+# CONN_02X20
 #
-DEF Screw-terminal-interface-rescue_CONN_02X20 P 0 1 Y N 1 F N
+DEF CONN_02X20 P 0 1 Y N 1 F N
 F0 "P" 0 1050 50 H V C CNN
-F1 "Screw-terminal-interface-rescue_CONN_02X20" 0 0 50 V V C CNN
+F1 "CONN_02X20" 0 0 50 V V C CNN
 F2 "" 0 -950 50 H V C CNN
 F3 "" 0 -950 50 H V C CNN
 $FPLIST
@@ -99,11 +99,11 @@ X P9 9 -250 550 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Screw-terminal-interface-rescue_Screw_Terminal_1x05
+# Screw_Terminal_1x05
 #
-DEF Screw-terminal-interface-rescue_Screw_Terminal_1x05 J 0 30 Y N 1 F N
+DEF Screw_Terminal_1x05 J 0 30 Y N 1 F N
 F0 "J" 0 550 50 H V C TNN
-F1 "Screw-terminal-interface-rescue_Screw_Terminal_1x05" -150 0 50 V V C TNN
+F1 "Screw_Terminal_1x05" -150 0 50 V V C TNN
 F2 "" 0 -525 50 H I C CNN
 F3 "" -25 300 50 H I C CNN
 $FPLIST
@@ -132,34 +132,6 @@ X ~ 2 200 200 100 L 50 50 1 1 P
 X ~ 3 200 0 100 L 50 50 1 1 P
 X ~ 4 200 -200 100 L 50 50 1 1 P
 X ~ 5 200 -400 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
